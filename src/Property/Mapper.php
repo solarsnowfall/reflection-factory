@@ -6,11 +6,9 @@ use Solar\String\Convention;
 
 abstract class Mapper
 {
-    const MAGIC_GETTERS = false;
-
-    const MAGIC_SETTERS = false;
-
-    const PROPERTY_CONVENTION = Convention::LOWER_CAMEL_CASE;
+    const MAGIC_GETTERS         = false;
+    const MAGIC_SETTERS         = false;
+    const PROPERTY_CONVENTION   = Convention::LOWER_CAMEL_CASE;
 
     /**
      * @param string $name

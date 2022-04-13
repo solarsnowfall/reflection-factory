@@ -6,7 +6,6 @@ abstract class AbstractSingletonFactory
 {
     /**
      * @param array|null $parameters
-
      * @throws \Exception
      */
     public static function getInstance(array $parameters = null)

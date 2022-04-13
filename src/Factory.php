@@ -7,7 +7,6 @@ class Factory
     /**
      * @param string $class
      * @param array $parameters
-     *
      * @throws \Exception
      */
     public static function newInstanceOf(string $class, array $parameters = [])
