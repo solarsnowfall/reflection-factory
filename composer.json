@@ -1,0 +1,22 @@
+{
+    "name": "solarsnowfall/reflection-factory",
+    "description": "Automated user-defined class construction.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Travis Miller",
+            "email": "travis@twooutrally.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "solarsnowfall/string-convention": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Solar\\Object\\": "src/"
+        }
+    }
+}
