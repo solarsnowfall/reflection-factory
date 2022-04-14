@@ -48,7 +48,7 @@ abstract class Mapper
         $properties = [];
 
         foreach (static::listProperties($visibility) as $property)
-            $property[$property] = $this->$property;
+            $properties[$property] = $this->$property;
 
         return $properties;
     }
